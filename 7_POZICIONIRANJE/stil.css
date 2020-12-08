@@ -1,0 +1,21 @@
+#div1{
+    background-color: darkorange;
+    width: 600px;
+    height: 300px;
+    position: relative;
+    top: 80px;
+    left: 60px;
+}
+.header{
+    position: relative;
+    background-image: url(lego_pizza.jpg);
+    height: 100px;
+}
+.div{
+    position: absolute;
+    top: 80%;
+    left: 50%:
+    text-align: center;
+}
+
+

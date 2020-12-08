@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Osnove CSS-a</title>
+    <style>
+        p{
+            color :red;
+            font-family: Arial, Helvetica, sans-serif;
+            
+            
+        
+        
+        }
+        .iskoseno{
+            font-style: italic;
+        }
+        .desnoporavnanje{
+            text-align: right;
+        }
+        .iskoseno, .desnoporavnanje {
+            font-size: large;
+        }
+        #podebljano {
+            font-weight: bold;
+        }
+        span{
+            background-color: blue;
+        }
+        .plaviparagraf {
+            color: blue;
+        }
+        #zeleniparagraf {
+            color: green;
+        }
+        /*
+        Klasa je specificnija od taga i ona preovladava i primenjuje se 
+        ID je specifiji i od taga i od clase
+        */
+
+
+    </style>
+</head>
+<body>
+    <h1 class="iskoseno">
+
+        Osnove <span>CSS-a
+
+        </span></h1>
+
+    <p id="podebljano" class="iskoseno desnoporavnanje">
+        Ovo je tekst prvog paragrafa
+    </p>
+    <p>
+        Ovo je tekst drugog paragrafa
+    </p>
+    <p class="iskoseno desnoporavnanje">
+        Ovo je tekst treceg paragrafa
+    </p>
+    <p class="plaviparagraf"> 
+        Ovo je teks cetvrtog paragrafa
+    </p>
+    <p>
+        <p id="zeleniparagraf" class="plaviparagraf"> 
+            Ovo je teks petog paragrafa
+        </p>
+    </p>
+</body>
+</html>
