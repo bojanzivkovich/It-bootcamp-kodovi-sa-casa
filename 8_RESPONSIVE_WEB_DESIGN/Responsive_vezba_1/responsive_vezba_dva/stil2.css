@@ -1,0 +1,130 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(228, 228, 238);
+}
+.row{
+    width: 100%;
+    height: 25%;
+    overflow: hidden;
+}
+/*raspored elemenata po redovima *= znaci da pocinje sa col */
+[class*="col"]{
+    float: left;
+    border: 1px solid darkblue;
+}
+/*dizajn za mob tel*/
+@media only screen and (max-width: 426px){
+    [class*="col"]{
+    width: 100%;
+    border: 1px solid black;
+    }
+    .button{
+        background-color: green;
+    }
+    
+}
+
+/*dizajn za tablet uredjaje*/
+@media only screen and(min-width: 426px) and(max-width: 769px){
+    .col1-t{
+        width: 8.33%;
+    }
+    .col2-t{
+        width: 16.66%;
+    }
+    .col3-t{
+        width: 25%;
+    }
+    .col4-t{
+        width: 33.33%;
+    }
+    .col5-t{
+        width: 41.66;
+    }
+    .col6-t{
+        width: 50%;
+    }
+    .col7-t{
+        width: 58.33%;
+    }
+    .col8-t{
+        width: 66.66;
+    }
+    .col9-t{
+        width: 75%;
+    }
+    .col10-t{
+        width: 83.33%;
+    }
+    .col11-t{
+        width: 91.66%;
+    }
+    .col12-t{
+        width: 100%;
+    }    
+
+}
+/*dizajn za desktop uredaje*/
+@media only screen and (min-width: 426px)
+{
+   
+
+.col1{
+    width: 8.33%;
+}
+.col2{
+    width: 16.66%;
+}
+.col3{
+    width: 25%;
+}
+.col4{
+    width: 33.33%;
+}
+.col5{
+    width: 41.66;
+}
+.col6{
+    width: 50%;
+}
+.col7{
+    width: 58.33%;
+}
+.col8{
+    width: 66.66;
+}
+.col9{
+    width: 75%;
+}
+.col10{
+    width: 83.33%;
+}
+.col11{
+    width: 91.66%;
+}
+.col12{
+    width: 100%;
+}
+}
+
+/*boja sekcije*/
+header{
+    background-color: rgb(85, 248, 79);
+}
+nav{
+    background-color: burlywood;
+}
+article{
+    background-color: cyan;
+}
+aside{
+    background-color: darkorange;
+}
+footer{
+    background-color: gold;
+}

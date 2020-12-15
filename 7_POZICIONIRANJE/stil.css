@@ -5,6 +5,7 @@
     position: relative;
     top: 80px;
     left: 60px;
+    z-index: ;
 }
 .header{
     position: relative;
@@ -16,6 +17,34 @@
     top: 80%;
     left: 50%:
     text-align: center;
+}
+.footer{
+    background-color: rgb(35, 209, 0);
+    width: 100%;
+    position: fixed;
+    bottom: o;
+    left: 30px;
+
+}
+#prvi{
+    background-color: deepskyblue;
+    position: relative;
+    width: 200px;
+    height: 100px;
+    z-index: 1;
+    
+
+}
+#drugi{
+    background-color: gold;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    bottom: 50px;
+    left: 10px;
+}
+.class1{
+    float: left;
 }
 
 
